@@ -1,0 +1,47 @@
+* {
+  letter-spacing: 1px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica, "Helvetica Neue", Arial, Tahoma, sans;
+  padding-top: 100px;
+}
+
+.navbar {
+  background: #141D25;
+  border-bottom: 2px solid #00c6d7;
+  height: 100px;
+  overflow: hidden;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar .logo {
+  float: left;
+  margin-left: 15px;
+  width: 78px;
+}
+
+.navbar .logo img {
+  width: 100%;
+}
+
+.navbar .title h1 {
+  color: #00c6d7;
+  font-size: 20px;
+  font-weight: 300;
+  float: right;
+  margin: 38px 40px 0 0;
+  text-transform: uppercase;
+}
+
+.navbar .title h1 a {
+  color: #00c6d7;
+  text-decoration: none;
+}

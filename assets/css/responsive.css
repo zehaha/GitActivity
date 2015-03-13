@@ -1,0 +1,142 @@
+@media (max-width: 1100px) {
+  .ui-section img.banner-image {
+    margin-bottom: -12px;
+    margin-top: -100px;
+  }
+
+  .ui-section img.logo {
+    top: 20%;
+    width: 300px;
+  }
+
+  .ui-section h1 {
+    font-size: 25px;
+  }
+
+  .ui-section .description p {
+    font-size: 16px;
+  }
+
+  .up-csi-section > div > div {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 960px) {
+  .ui-section img.banner-image {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .ui-section img.logo {
+    top: 23%;
+    width: 280px;
+  }
+
+  .up-csi-section > div {
+    float: none;
+    margin-top: 40px;
+    width: 100%;
+  }
+
+  .up-csi-section > div:first-child {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 850px) {
+  body {
+    padding: 0;
+  }
+
+  .navbar {
+    height: 50px;
+    position: inherit;
+  }
+
+  .navbar .logo {
+    height: 45px;
+    margin-left: 3px;
+    overflow: hidden;
+    width: 45px;
+  }
+
+  .navbar .title h1 {
+    font-size: 16px;
+    margin: 15px 15px 0 0;
+  }
+
+  .ui-section {
+    height: 600px;
+    text-align: center;
+  }
+
+  .ui-section img.banner-image {
+    display: none;
+  }
+
+  .ui-section img.logo {
+    margin-top: 40px;
+  }
+
+  .ui-section img.logo, .ui-section .text {
+    position: inherit;
+  }
+
+  .ui-section .text {
+    margin-top: 35px;
+    text-align: center;
+    width: auto;
+  }
+
+  .ui-section h1 {
+    background: rgba(0,198,215,0.8);
+    font-size: 20px;
+    margin: 0 100px 10px;
+    padding: 8px 20px 3px;
+  }
+
+  .ui-section h1 span {
+    background: none;
+    float: none;
+    padding: 0;
+  }
+
+  .ui-section .description {
+    background: rgba(0,0,0,0.75);
+    margin: 0 100px;
+    padding: 5px 20px;
+  }
+
+  .ui-section .description p {
+    background: none;
+    float: none;
+    padding: 0;
+  }
+}
+
+@media (max-width: 520px) {
+  .ui-section h1 {
+    font-size: 18px;
+  }
+
+  .ui-section h1, .ui-section .description {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .ui-section .description {
+    padding: 5px 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  .navbar .title h1 {
+    font-size: 13px;
+    margin: 17px 15px 0 0;
+  }
+
+  .ui-section .description p {
+    font-size: 14px;
+  }
+}
